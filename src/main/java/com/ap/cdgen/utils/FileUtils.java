@@ -1,21 +1,26 @@
 package src.main.java.com.ap.cdgen.utils;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class FileUtils {
 
   public static void writeToMarkdownFile(String fileName, String data) {
-    File myObj = new File(fileName);
+    Path path = Paths.get(fileName);
+
     try {
-      if (myObj.createNewFile()) {
-        System.out.println("File created: " + myObj.getName());
-      } else {
-        System.out.println("File already exists.");
-      }
+      Files.createDirectories(path.getParent());
     } catch (IOException e2) {
       e2.printStackTrace();
+    }
+
+    try {
+      Files.createFile(path);
+    } catch (IOException e) {
+      System.err.println("already exists: " + e.getMessage());
     }
     FileWriter myWriter = null;
     try {
