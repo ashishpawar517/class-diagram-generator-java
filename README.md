@@ -24,8 +24,9 @@ I used `java` , `markdown` and `mermaid`. I have used java **[Reflection API](ht
 
 ## Setup And Usage
 
-- You should have installed Jdk1.8, clone the repository or download the zip.
-- Run Main class file for running the app. It will create new sample file in markdown directory
+- You should have installed Jdk1.8
+- Clone the repository or download the zip.
+- Run Main class file for running the app. It will create new sample file [just like this](src/main/java/com/ap/cdgen/markdown/sample2.md) in markdown directory
 - You can change `packagePath` if you want to point out to some other class hierarchy. 
 - To view that markdown you can use [VSCode Markdown preview extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) or github gist or any markdown renderer. You can see the [output](.github/screenshot.png) here.
 
