@@ -1,6 +1,6 @@
 <div align='center'>
   
-<h1> Class Diagram generator In Java </h1>
+<h1> Class Diagram Generator in Java </h1>
 Create UML Class diagrams using Java Annotations
   <br/>
   <br/>
