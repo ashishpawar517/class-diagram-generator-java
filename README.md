@@ -32,7 +32,7 @@ I used `java` , `markdown` and `mermaid`. I have used java **[Reflection API](ht
 
 ## Status
 
-Project is completed with all the features. You can request for new features. or Fork and create PR for the same. `
+Project is completed with all the features. You can request for new features. or Fork and create PR for the same. 
 
 ## Credits
 
