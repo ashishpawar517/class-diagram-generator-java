@@ -19,7 +19,7 @@ I wanted to build an utility app to create [UML Class diagrams](https://www.tuto
 
 ## Technologies
 
-I used `java` , `markdown` and `mermaid`. I have used java **[Reflection API](https://docs.oracle.com/javase/tutorial/reflect/index.html)** for scanning all the classes in the package.
+I used `java` , `markdown` and `mermaid`. I have used java **[Reflection API](https://docs.oracle.com/javase/tutorial/reflect/index.html)** for scanning all the classes in the package. And some basic annotation processing.
 
 
 ## Setup And Usage
