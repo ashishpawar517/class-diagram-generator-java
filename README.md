@@ -11,8 +11,7 @@ Create UML Class diagrams using Java Annotations
 </div>
 
 ## About
-I wanted to build an utility app to create UML Class diagrams from java code. But didn't wanted to spend so much to draw it. So, I created this project using annotations `@SuperClass` and `@ChildClass` above the class declaration, project will create new mermaid markdown code for UML class diagrams.
-
+I wanted to build an utility app to create [UML Class diagrams](https://www.tutorialspoint.com/uml/uml_class_diagram.htm) from java code. But didn't wanted to spend so much to draw it. So, I created this project using annotations `@SuperClass` and `@ChildClass` above the class declaration, project will create new mermaid markdown code for UML class diagrams.
   
 
 ## Screenshots
@@ -20,13 +19,15 @@ I wanted to build an utility app to create UML Class diagrams from java code. Bu
 
 ## Technologies
 
-I used `java` , `markdown` and `mermaid`.
+I used `java` , `markdown` and `mermaid`. I have used java **[Reflection API](https://docs.oracle.com/javase/tutorial/reflect/index.html)** for scanning all the classes in the package.
+
 
 ## Setup And Usage
 
 - You should have installed Jdk1.8, clone the repository or download the zip.
 - Run Main class file for running the app. It will create new sample file in markdown directory
 - You can change `packagePath` if you want to point out to some other class hierarchy. 
+- To view that markdown you can use [VSCode Markdown preview extension](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) or github gist or any markdown renderer. You can see the [output](.github/screenshot.png) here.
 
 ## Status
 
